@@ -1,5 +1,11 @@
 # Python-SQL-Practice-Prep
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/CustomTkinter-2596be?style=for-the-badge&logo=python&logoColor=white" alt="CustomTkinter">
+</p>
+
 A structured refresher on Python and SQLite3 fundamentals, designed to shake off the rust and build a foundation for creating an SQL Learning Tool for High School Computer Science learners.
 
 ## Overview

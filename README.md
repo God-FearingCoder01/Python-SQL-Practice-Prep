@@ -98,6 +98,24 @@ Python-SQL-Practice-Prep/
 |-- school.db               # Generated SQLite database (Task 2)
 ```
 
+## Lessons Learned
+
+1. **Defensive Programming (The Safety Net)**
+
+- **Try/Exept Blocks:** I learnt how to prevent my application from craching when a user makes a mistake. By wrapping risky code (like `int(input())`) in a `try` block, I can catch errors like `ValueError` and provide helpful feedback instead of a crash.
+- **Specific Error Catching:** I realized it's better to catch a specific error than a general one, so I don't accidetally hide bigger bugs in my code.
+
+2. **Database Security (The Gold Standard)**
+
+- **SQL Injection Prevention:** I learnt why **String Concatenation** (f-strings) is dangerous for database queries.
+- **Parameterized Queries:** I implemented the `?` placeholder system. This sanitizes user input, ensuring that a student's practice query doesn't accidentally delete the entire database.
+
+3. **Modern GUI Architecture**
+
+- **CustomTkinter vs Standard Tkinter:** I moved from the older. "blocky" look of standard Tkinter to a modern, themed interface.
+- **The Grid System:** I mastered the Graph Paper approach to layout -- using rows, columns and `sticky` properties to make sure the UI looks professional and stays organized when resized.
+- **WIdget Control:** I learned how to get data from a `CTkTextbox` using specific coordinated ("1.0", "end-1c") and how to confugure labels and boxes to update the user user on the fly.
+
 # Resources
 
 - [SQLite3 Python Documentation](https://docs.python.org/3/library/sqlite3.html)
